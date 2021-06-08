@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">El Huareñito</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_profile">Mi Perfil</string>
+    <string name="text_subtitle">Aplicación Informativa de lucha contra el Covid-19</string>
+    <string name="teacher_one">Lic. Lilian Meneses Rojas</string>
+    <string name="teacher_one_desc">Maestra del 6to "B" Nivel Primario Comunitario Vocacional.</string>
+    <string name="teacher_two">Lic. Henrry Oliver Rojas Chile</string>
+    <string name="teacher_two_desc"> Maestro del 3roo "B"Nivel Primario Comunitario Vocacional</string>
+    <string name="know_more_covid">Conozca más del Covid-19</string>
+    <string name="remedios_caseros">Remedios caseros</string>
+    <string name="see_videos">Ver videos</string>
+    <string name="evaluation">Evaluación</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="56sp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80sp"
+                    android:layout_height="100sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:text="@string/text_subtitle"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="36sp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_know_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:text="@string/know_more_covid"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_remedios_caseros"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="4sp"
+                    android:text="@string/remedios_caseros"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_videos"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="4sp"
+                    android:text="@string/see_videos"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_evaluation"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:layout_marginTop="4sp"
+                    android:text="@string/evaluation"
+                    android:textSize="16sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
