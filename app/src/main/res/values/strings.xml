@@ -2,7 +2,7 @@
     <string name="app_name">El Huareñito</string>
     <string name="title_home">Inicio</string>
     <string name="title_profile">Mi Perfil</string>
-    <string name="text_subtitle">Aplicación Informativa de lucha contra el Covid-19</string>
+    <string name="text_subtitle">Aplicación Informativa de lucha \ncontra el Covid-19</string>
     <string name="teacher_one">Lic. Lilian Meneses Rojas</string>
     <string name="teacher_one_desc">Maestra del 6to "B" Nivel Primario Comunitario Vocacional.</string>
     <string name="teacher_two">Lic. Henrry Oliver Rojas Chile</string>
@@ -11,4 +11,13 @@
     <string name="remedios_caseros">Remedios caseros</string>
     <string name="see_videos">Ver videos</string>
     <string name="evaluation">Evaluación</string>
+    <string name="go_back">Volver</string>
+    <string name="what_is_covid">¿Qué es el Covid-19?</string>
+    <string name="text_what_is_covid">El Covid-19 es la enfermedad causada por el nuevo coronavirus conocido como SARS-COV-2.</string>
+    <string name="how_is">¿Cómo se transmite?</string>
+    <string name="text_how_is">Éstas gotículas a veces caen sobre objetos o superficies. \nLa persona puede einfectarse si toca éstos objetos y luego se toca la cara, nariz o boca. \nPor eso es importante lavarse  las manos!</string>
+    <string name="list_sint">¿Cuáles son sus síntomas?</string>
+    <string name="text_what_sint">Los síntomas más communes son:  fiebre, tos seca, cansancio, pérdida del gusto u olfato, congestion nasal, dolor de cabeza, dolores musculares.</string>
+    <string name="what_do">¿Qué hacer si soy positivo?</string>
+    <string name="text_what_do">Si eres positivo del Covid debes quedarte en casa, permaneciendo en una habitación  separada.</string>
 </resources>

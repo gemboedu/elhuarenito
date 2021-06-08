@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="56sp"
     tools:context=".fragments.HomeFragment">
 
     <ScrollView
@@ -54,7 +55,6 @@
                     android:id="@+id/btn_remedios_caseros"
                     android:layout_width="match_parent"
                     android:layout_height="77dp"
-                    android:layout_marginTop="4sp"
                     android:text="@string/remedios_caseros"
                     android:textSize="16sp" />
 
@@ -62,7 +62,6 @@
                     android:id="@+id/btn_videos"
                     android:layout_width="match_parent"
                     android:layout_height="77dp"
-                    android:layout_marginTop="4sp"
                     android:text="@string/see_videos"
                     android:textSize="16sp" />
 
@@ -70,7 +69,6 @@
                     android:id="@+id/btn_evaluation"
                     android:layout_width="match_parent"
                     android:layout_height="77dp"
-                    android:layout_marginTop="4sp"
                     android:text="@string/evaluation"
                     android:textSize="16sp" />
             </androidx.appcompat.widget.LinearLayoutCompat>
