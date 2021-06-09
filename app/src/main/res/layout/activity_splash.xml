@@ -14,9 +14,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="80sp"
-            android:layout_height="110sp"
-            android:src="@drawable/ic_home_black_24dp" />
+            android:layout_width="220sp"
+            android:layout_height="200sp"
+            android:src="@drawable/huarenito_white" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

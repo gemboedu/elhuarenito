@@ -2,15 +2,19 @@ package com.gemboedu.elhuarenito.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toolbar;
 
-import com.gemboedu.elhuarenito.MainActivity;
 import com.gemboedu.elhuarenito.R;
 import com.gemboedu.elhuarenito.databinding.ActivityVideosBinding;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class VideosActivity extends AppCompatActivity {
     private ActivityVideosBinding videosBinding;
+    private Toolbar toolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,10 +22,11 @@ public class VideosActivity extends AppCompatActivity {
         videosBinding = ActivityVideosBinding.inflate(getLayoutInflater());
         setContentView(videosBinding.getRoot());
 
-        videosBinding.arrowVideos.setOnClickListener(v -> {
-            Intent intent = new Intent(VideosActivity.this, MainActivity.class);
-            startActivity(intent);
-            finish();
-        });
+        androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.action_bar_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(R.string.go_back);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
 }

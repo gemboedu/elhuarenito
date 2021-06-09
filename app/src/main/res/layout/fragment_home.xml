@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="56sp"
     tools:context=".fragments.HomeFragment">
 
     <ScrollView
@@ -19,18 +18,18 @@
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="56sp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="80sp"
-                    android:layout_height="100sp" />
+                    android:layout_width="220sp"
+                    android:layout_height="180sp"
+                    android:layout_marginTop="24sp"
+                    android:src="@drawable/huarenito_dark" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16sp"
                     android:text="@string/text_subtitle"
                     android:textAlignment="center"
                     android:textSize="18sp" />
@@ -66,11 +65,19 @@
                     android:textSize="16sp" />
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btn_evaluation"
+                    android:id="@+id/btn_evaluation_1"
                     android:layout_width="match_parent"
                     android:layout_height="77dp"
-                    android:text="@string/evaluation"
+                    android:text="@string/evaluation1"
                     android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_evaluation_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="77dp"
+                    android:text="@string/evaluation2"
+                    android:textSize="16sp" />
+
             </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.appcompat.widget.LinearLayoutCompat>

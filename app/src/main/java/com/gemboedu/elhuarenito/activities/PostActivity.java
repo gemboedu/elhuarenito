@@ -3,27 +3,22 @@ package com.gemboedu.elhuarenito.activities;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-import com.gemboedu.elhuarenito.MainActivity;
 import com.gemboedu.elhuarenito.R;
-import com.gemboedu.elhuarenito.databinding.ActivityDescriptionBinding;
+import com.gemboedu.elhuarenito.databinding.ActivityPostBinding;
 
-public class DescriptionActivity extends AppCompatActivity {
-    private ActivityDescriptionBinding binding;
-    private Toolbar toolbar;
+public class PostActivity extends AppCompatActivity {
+    private ActivityPostBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityDescriptionBinding.inflate(getLayoutInflater());
+        binding = ActivityPostBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         Toolbar toolbar = findViewById(R.id.action_bar_toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.go_back);
+        getSupportActionBar().setTitle("Post Covid-19");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 }

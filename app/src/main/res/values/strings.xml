@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">El Huareñito</string>
+    <string name="app_name">El Huareñito G.B.</string>
     <string name="title_home">Inicio</string>
-    <string name="title_profile">Mi Perfil</string>
-    <string name="text_subtitle">Aplicación Informativa de lucha \ncontra el Covid-19</string>
+    <string name="title_profile">Nosotros</string>
+    <string name="text_subtitle">Aplicación Educativa para la enseñanza de \nPlantas medicinales en el tratamiento \nde enfermedades virales.</string>
     <string name="teacher_one">Lic. Lilian Meneses Rojas</string>
-    <string name="teacher_one_desc">Maestra del 6to "B" Nivel Primario Comunitario Vocacional.</string>
+    <string name="teacher_one_desc">Maestra del 6to "B" \nNivel Primario Comunitario Vocacional.</string>
     <string name="teacher_two">Lic. Henrry Oliver Rojas Chile</string>
-    <string name="teacher_two_desc"> Maestro del 3roo "B"Nivel Primario Comunitario Vocacional</string>
+    <string name="teacher_two_desc"> Maestro del 3ro "B" \nNivel Primario Comunitario Vocacional</string>
     <string name="know_more_covid">Conozca más del Covid-19</string>
-    <string name="remedios_caseros">Remedios caseros</string>
+    <string name="remedios_caseros">Medicina tradicional</string>
     <string name="see_videos">Ver videos</string>
     <string name="evaluation">Evaluación</string>
     <string name="go_back">Volver</string>
@@ -20,4 +20,38 @@
     <string name="text_what_sint">Los síntomas más communes son:  fiebre, tos seca, cansancio, pérdida del gusto u olfato, congestion nasal, dolor de cabeza, dolores musculares.</string>
     <string name="what_do">¿Qué hacer si soy positivo?</string>
     <string name="text_what_do">Si eres positivo del Covid debes quedarte en casa, permaneciendo en una habitación  separada.</string>
+    <string name="text_ue">Unidad Educativa "German Busch" \nSantiago de Huari - Oruro</string>
+    <string name="author">Autores:</string>
+    <string name="proyect_title">Título del Proyecto:</string>
+    <string name="proyect_title_text">Aplicación Educativa: \nEl Huareñito G.B. para la enseñanza de Plantas medicinales \nen el tratamiento de enfermedades virales</string>
+    <string name="video_title">Video Title</string>
+    <string name="video_title_one">Beneficios de las plantas medicinales</string>
+    <string name="video_title_two">Medicina originaria</string>
+    <string name="video_title_three">Beneficios del Aloe vera</string>
+    <string name="video_title_four">Plantas medicinales</string>
+    <string name="evaluation1">Evaluación 1 (Relacionar)</string>
+    <string name="evaluation2">Evaluación 2 (Crucigrama)</string>
+    <string name="video_title_five">Medicinas naturales para combatir el Covid-19</string>
+    <string name="text_preventivos">Prevención</string>
+    <string name="text_tratamiento">Tratamiento</string>
+    <string name="text_post_covid">Post Covid-19</string>
+    <string name="text_manual">LEER MANUAL DE SALUD</string>
+    <string name="text_ingr_mate_espinas">- Espina \n- Lacañi \n- Añawaya \n- Pampacaiyñi \n- Ancara \n- Grande Añawaya \n- Voladora \n- Amor Seco "</string>
+    <string name="text_prep_mate_espinas">Estas espinas debemos hacerlas hervir en una olla por el lapso de 10 minutos  a 15 minutos y lo podemos beber caliente antes de dormir. estas plantas medicinales y preventivas nos ayudan a expulsar los virus y bacterias de nuestro cuerpo y nos aumentan las defensas.</string>
+    <string name="text_ingr_sist_inm">"- Eucalipto\n- Manzanilla\n- Wira wira\n- Limón\n- Miel\n- Jengibre "</string>
+    <string name="text_prep_sist_inm">"Colocar  en una olla un litro de agua y hacerla hervir por el lapso de 20 minutos, posteriormente colocar una ramita wira wira, dos hojas de eucalipto hembra, unas ramas de manzanilla y un pedazo de jengibre. todo ello hacerlo hervir por el lapso de 5 minutos, posteriormente dejarlo reposar. para que este mate nos ayude a incrementar las defenzas en nuestro organismo debemos  tomarlo  tres veces al día con miel a gusto.  \nFuente: Estudiante Jhaynaly Huarini Flores Villca </string>
+    <string name="text_ingr_jengibre">- Jengibre \n- Miel "</string>
+    <string name="text_prep_mate_jengibre">En una olla colocar un litro de agua y un pedazo de jengibre rebanado, posteriormente debemos hacerlo hervir de 10 a 15 minutos . Luego debemos beberlo caliente ,con miel a gusto tres veces al día .</string>
+    <string name="text_ingr_caldo_llama">- 2 litros de agua  \n- Hueso de llama guardado por tres años. "</string>
+    <string name="text_prep_caldo_llama">Hacer hervir en una olla dos litros de agua, colocar el hueso de la llama que se ha guardado por tres años y el tiempo de cocción del mismo es de 20 minutos . Este caldo deben tomarlo caliente  aquellas personas que han perdido el sentido del gusto  y tienen dificultades respiratorias. </string>
+    <string name="text_ingr_infusion">- Romero  \n- Wira wira tostada \n- Eucalipto tostado \n- Limón tostado \n- Manzanilla \n- Matico  \n- Molle \n- Sangretorio</string>
+    <string name="text_prep_infusion">En una olla colocar 2 litros de agua y hacerla hervir. \nPoner al agua hervida una ramita de romero, wira wira , eucalipto(previamente tostados) asimismo  colocar a esta preparación una ramita de manzanilla, matico, molle y sangretorio.  con todos los ingredientes debemos hacer hervir esta infusión por el lapso de 10 minutos. \nBeber este mate  tres veces al día acompañado del jugo de limón retostado y miel a gusto hasta que la persona recupere  por completo del covid 19. </string>
+    <string name="text_ingr_anq">- Anqhañoqo \n- Sillu sillu</string>
+    <string name="text_prep_anq">En una olla con litro de agua hervida colocamos dos ramitas de anqhañoqo y sillu sillu lo hacemos hervir por 10 minutos y luego lo tomamos con chankaka o miel. nunca con azúzar</string>
+    <string name="text_ingr_jarave_cebolla">- Media cabeza de cebolla  \n- Una cabeza de ajo de varios dientes  \n- 3 limones \n- Miel de abeja.
+</string>
+    <string name="text_jarabe_ceb">En un frasco de vidrio limpio (esterilizar haciendo hervir el frasco) colocar las cebollas y ajos cortadas en rodajas delgadas , añadir el limón y finalmente la miel a gusto tapar el frasco par su reposo el tiempo que sea necesario . \nDejar reposar a temperatura ambiente utilice el jarabe mínimo después de 24 horas reposado . \nTomar uno o dos cucharillas por día.</string>
+    <string name="video_title_six">Caldo de hueso de llama, tratamiento para el Covid</string>
+    <string name="video_title_teacher">Plantas medicinales en el tratamiento de enfermedades virales</string>
+
 </resources>

@@ -6,43 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".activities.RemediosCaserosActivity">
 
-    <ScrollView
+    <include layout="@layout/action_bar_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="56sp"
+        android:fitsSystemWindows="true">
+
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="wrap_content"
-                android:layout_height="56sp"
-                android:id="@+id/arrow_remedios"
-                android:gravity="center">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="30sp"
-                    android:layout_height="30sp"
-                    android:layout_marginLeft="16sp"
-                    android:src="@drawable/ic_baseline_arrow_back" />
+                    android:layout_width="220sp"
+                    android:layout_height="180sp"
+                    android:layout_marginTop="24sp"
+                    android:src="@drawable/huarenito_dark" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="8sp"
-                    android:text="@string/go_back"
-                    android:textSize="18sp" />
             </androidx.appcompat.widget.LinearLayoutCompat>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
                 android:layout_marginTop="36sp"
-                android:text="REMEDIOS"
-                android:textSize="36dp" />
+                android:layout_marginRight="16sp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_pre"
+                    android:layout_width="match_parent"
+                    android:layout_height="72sp"
+                    android:text="@string/text_preventivos"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="72sp"
+                    android:text="@string/text_tratamiento"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="72sp"
+                    android:text="@string/text_post_covid"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_manual"
+                    android:layout_width="match_parent"
+                    android:layout_height="72sp"
+                    android:text="@string/text_manual"
+                    android:textSize="16sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
         </androidx.appcompat.widget.LinearLayoutCompat>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
